@@ -1,0 +1,351 @@
+@font-face {
+    font-family: "GOTHAM-MEDIUM-REGULAR";
+    src: url("../font/GOTHAM MEDIUM REGULAR.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GOTHAM-BOOK";
+    src: url("../font/GOTHAM-BOOK.OTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GOTHAM-LIGHT";
+    src: url("../font/GOTHAMLIGHT_0.OTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "GOTHAM-LIGHT", sans-serif;
+    color: #222;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.navbar {
+    background-color: #880303 !important;
+    position: fixed;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-tmall-text {
+    width: 12%;
+    float: right;
+    padding-top: 1.5%;
+    font-size: 1.35vw;
+}
+
+.navbar-tmall-arrow {
+    width: 1.3%;
+    float: right;
+    padding-top: 1.2%;
+}
+
+.navbar-hui-logo {
+    width: 10%;
+    float: right;
+}
+
+.content h1 {
+    color: #ffffff;
+    margin-top: -35%;
+    font-weight: 900;
+}
+
+.content-logo {
+    width: 18%;
+    margin-top: 5%;
+    padding-bottom: 6%;
+    margin-left: -40%;
+}
+
+.content-topview {
+    width: 100%;
+    margin-top: -5%;
+}
+
+.content-detail h4 {
+    font-family: "PingFangSC-Medium";
+    padding: 5%;
+    font-size: 125%;
+}
+
+.content-detail img {
+    padding-bottom: 6%;
+    width: 60%;
+}
+
+.content-detail h2 {
+    margin-top: -12%;
+    padding-left: 50%;
+    padding-bottom: 6%;
+    line-height: 200%;
+    font-size: 2.4vw;
+    font-weight: 900;
+}
+
+.content-detail hr {
+    width: 50%;
+    border-top: 1px solid #000000;
+}
+
+.content-detail h5 {
+    padding-top: 5%;
+}
+
+.content-img {
+    padding: 0%;
+    margin: 0%;
+}
+
+.content-img {
+    width: 60%;
+}
+
+.wine-img {
+    width: 100%;
+    margin-left: 30%;
+}
+
+.content-text {
+    padding: 6% 10%;
+}
+
+.content-text-left {
+    font-size: 1.2vw;
+    padding-left: 15%;
+}
+
+.content-text-left h5 {
+    font-weight: 900;
+}
+
+.content-text-right {
+    font-size: 110%;
+    margin-left: -15%;
+    margin-top: 2.5%;
+}
+
+.content-text-right p {
+    width: 110%;
+}
+
+.contact-detail {
+    font-size: 1.1vw;
+    padding: 5% 25%;
+}
+
+.contact-title {
+    margin-left: -15%;
+    padding-bottom: 5% !important;
+    padding-top: 10%;
+    font-weight: 900;
+    font-size: 170%;
+}
+
+.contact-location img {
+    width: 7%;
+    padding: 0%;
+    margin-left: 12%;
+}
+
+.contact-location p {
+    padding: 0%;
+    margin-left: 22%;
+    margin-top: -7%;
+    font-weight: 900;
+}
+
+.contact-email img {
+    width: 6%;
+    padding: 0%;
+    margin-left: -70%;
+}
+
+.contact-email p {
+    padding: 0%;
+    padding-bottom: 6%;
+    margin-top: -6.2%;
+    margin-left: -10%;
+    font-weight: 900;
+}
+
+.contact-phone img {
+    width: 6%;
+    padding: 0%;
+    margin-left: -70%;
+    margin-top: -15%;
+}
+
+.contact-phone p {
+    padding: 0%;
+    padding-bottom: 6%;
+    margin-top: -14%;
+    margin-left: -23%;
+    font-weight: 900;
+}
+
+footer {
+    background-color: #880303;
+    color: #ffffff;
+    height: 12%;
+    margin-top: -5%;
+}
+
+footer h5 {
+    padding-top: 3%;
+    font-size: 1.4vw;
+}
+
+@media screen and (min-width: 1700px) {
+    .navbar-tmall-text {
+        font-size: 23px;
+    }
+
+    .content-logo-text {
+        font-size: 34px;
+    }
+
+    .content-detail h2 {
+        font-size: 40.8px;
+    }
+
+    .content-text-left p {
+        font-size: 20px;
+    }
+
+    .contact-detail {
+        font-size: 19px;
+    }
+
+    footer h5 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        height: 20vw;
+    }
+
+    .navbar-tmall-text {
+        width: 32vw;
+        font-size: 4vw;
+        padding-top: 3.5vw;
+    }
+
+    .navbar-hui-logo {
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        margin-top: -3vw;
+        margin-right: -3vw;
+    }
+
+    .navbar-tmall-title {
+        font-size: 5vw;
+        width: 30%;
+        padding: 0;
+        margin: 0;
+        margin-top: 2.5vw;
+        margin-right: -5vw;
+    }
+
+    .navbar-tmall-click {
+        font-size: 3vw;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 5vw;
+    }
+
+    .navbar-tmall-arrow {
+        width: 3%;
+        padding: 0;
+        margin: 0;
+        margin-top: 3vw;
+        margin-right: 14vw;
+    }
+
+    .content-logo {
+        width: 30vw;
+    }
+
+    .content-detail h2 {
+        margin-top: -14%;
+        font-size: 3.5vw;
+    }
+
+    .content-img {
+        width: 100vw;
+    }
+
+    .content-text {
+        padding: 6% 10%;
+    }
+
+    .content-text-left {
+        font-size: 2.6vw;
+        padding-left: 0vw;
+    }
+
+    .wine-img {
+        width: 50vw;
+        margin-left: 30vw;
+    }
+
+    .contact-title {
+        font-size: 3.5vw;
+    }
+
+    .contact-detail {
+        font-size: 2.5vw;
+    }
+
+    .contact-location img {
+        width: 8%;
+        margin-left: 10%;
+    }
+
+    .contact-email img {
+        margin-left: -72%;
+    }
+
+    .contact-phone img {
+        margin-left: -72%;
+    }
+
+    .contact-email p {
+        margin-top: -7.5%;
+        margin-left: -2%;
+        font-weight: 900;
+    }
+
+    .contact-phone p {
+        margin-top: -15%;
+        margin-left: -17%;
+    }
+
+    footer h5 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 414px) {}
+
+@media (max-width: 411px) {}
+
+@media (max-width: 375px) {}

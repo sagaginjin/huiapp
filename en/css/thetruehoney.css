@@ -1,0 +1,419 @@
+@font-face {
+    font-family: "GOTHAM-MEDIUM-REGULAR";
+    src: url("../font/GOTHAM MEDIUM REGULAR.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GOTHAM-BOOK";
+    src: url("../font/GOTHAM-BOOK.OTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GOTHAM-LIGHT";
+    src: url("../font/GOTHAMLIGHT_0.OTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "GOTHAM-LIGHT", sans-serif;
+    color: #222;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.navbar {
+    background-color: #880303 !important;
+    position: fixed;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-tmall-text {
+    width: 12%;
+    float: right;
+    padding-top: 1.5%;
+    font-size: 1.35vw;
+}
+
+.navbar-tmall-arrow {
+    width: 1.3%;
+    float: right;
+    padding-top: 1.2%;
+}
+
+.navbar-hui-logo {
+    width: 10%;
+    float: right;
+}
+
+.logo-container {
+    background-color: #000000;
+    padding: 0%;
+    margin: 0%;
+}
+
+.topview-container {
+    padding: 0%;
+    margin: 0%;
+}
+
+.content-logo {
+    width: 20%;
+    margin-top: -5%;
+    padding-bottom: 6%;
+}
+
+.content-topview {
+    width: 100%;
+}
+
+.content-detail h4 {
+    font-family: "PingFangSC-Medium";
+    padding: 5%;
+    font-size: 125%;
+}
+
+.content-detail img {
+    padding-bottom: 6%;
+    width: 60%;
+}
+
+.content-detail h5 {
+    padding-top: 5%;
+    padding-bottom: 6%;
+    line-height: 200%;
+    font-size: 1.9vw;
+    font-weight: 900;
+}
+
+.content-detail hr {
+    width: 50%;
+    border-top: 1px solid #000000;
+}
+
+.content-img {
+    padding: 0%;
+    margin: 0%;
+    background-image: url("../../imgs/Our-Story-Image-FLIPPED.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 68%;
+    height: 60%;
+}
+
+.content-img-text {
+    color: #ffffff;
+    padding: 2% 33%;
+    font-size: 1.1vw;
+}
+
+.content-img hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    width: 20%;
+    padding: 0;
+}
+
+.content-img-left {
+    width: 50%;
+    padding-top: 40%;
+}
+
+.content-img-right {
+    width: 100%;
+}
+
+.content-text {
+    padding: 6% 20%;
+    font-size: 1.05vw;
+}
+
+.content-text-right {
+    padding-left: 10%;
+}
+
+.contact {
+    background-image: url("../../imgs/the-true-honey-company.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 70%;
+    background-color: #F4F4F4;
+    height: 55vh;
+}
+
+.contact-detail {
+    width: 30vw;
+    float: right;
+}
+
+.contact-title {
+    margin-left: -15%;
+    padding-bottom: 5% !important;
+    padding-top: 30%;
+}
+
+.contact-location img {
+    width: 5%;
+    padding: 0%;
+    margin-left: -57%;
+}
+
+.contact-location p {
+    padding: 0%;
+    margin-left: -12%;
+    margin-top: -6%;
+    font-size: 1.02vw;
+}
+
+.contact-email img {
+    width: 4%;
+    padding: 0%;
+    margin-left: -57%;
+    margin-top: -12%;
+}
+
+.contact-email p {
+    padding: 0%;
+    margin-left: -11%;
+    margin-top: -10.5%;
+    font-size: 1.02vw;
+}
+
+.contact-phone img {
+    width: 4%;
+    padding: 0%;
+    margin-left: -57%;
+    margin-top: -1%;
+}
+
+.contact-phone p {
+    padding: 0%;
+    padding-bottom: 6%;
+    margin-top: -5.3%;
+    margin-left: -22%;
+    font-size: 1.02vw;
+}
+
+footer {
+    background-color: #880303;
+    color: #ffffff;
+    height: 12%;
+}
+
+footer h5 {
+    padding-top: 3%;
+    font-size: 1.4vw;
+}
+
+@media screen and (min-width: 1700px) {
+    .navbar-tmall-text {
+        font-size: 23px;
+    }
+
+    .content-detail h5 {
+        font-size: 24px;
+    }
+
+    .content-img-text {
+        font-size: 19px;
+    }
+
+    .content-text {
+        font-size: 18px;
+    }
+
+    .content-detail p {
+        font-size: 19px;
+    }
+
+    .contact-detail {
+        font-size: 19px;
+    }
+
+    footer h5 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        height: 20vw;
+    }
+
+    .navbar-tmall-text {
+        width: 32vw;
+        font-size: 4vw;
+        padding-top: 3.5vw;
+    }
+
+    .navbar-hui-logo {
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        margin-top: -3vw;
+        margin-right: -3vw;
+    }
+
+    .navbar-tmall-title {
+        font-size: 5vw;
+        width: 30%;
+        padding: 0;
+        margin: 0;
+        margin-top: 2.5vw;
+        margin-right: -5vw;
+    }
+
+    .navbar-tmall-click {
+        font-size: 3vw;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 5vw;
+    }
+
+    .navbar-tmall-arrow {
+        width: 3%;
+        padding: 0;
+        margin: 0;
+        margin-top: 3vw;
+        margin-right: 14vw;
+    }
+
+    .content-img-right {
+        padding-top: 20%;
+    }
+
+    .content-img-left {
+        width: 35vw;
+        padding-top: 20vw;
+        padding-bottom: 15vw;
+    }
+
+    .content-detail h5 {
+        padding-bottom: 0%;
+        font-size: 4vw;
+    }
+
+    .content-img {
+        background-size: 100vw;
+        height: 40%;
+    }
+
+    .content-img-text h1 {
+        font-size: 5vw;
+    }
+
+    .content-img hr {
+        width: 15vw;
+    }
+
+    .content-img-text {
+        font-size: 2vw;
+    }
+
+    .content-text {
+        font-size: 2.8vw;
+        padding: 6% 17%;
+        margin-left: 3vw;
+    }
+
+    .content-text-left {
+        padding-left: 0%;
+    }
+
+    .content-text-right {
+        padding-left: 0%;
+    }
+
+    .contact {
+        background-position: top;
+        background-size: 100%;
+        height: 80vw;
+    }
+
+    .contact-detail {
+        width: 100vw;
+        padding-top: 17vw;
+    }
+
+    .contact-location img {
+        margin-left: -46%;
+    }
+
+    .contact-phone img {
+        margin-left: -46%;
+    }
+
+    .contact-email img {
+        margin-left: -46%;
+    }
+
+    .contact-location p {
+        margin-left: -10%;
+        font-size: 2.7vw;
+    }
+
+    .contact-phone p {
+        margin-left: -16%;
+        font-size: 2.7vw;
+    }
+
+    .contact-email p {
+        margin-top: -9.5%;
+        margin-left: -10%;
+        font-size: 2.7vw;
+    }
+
+    footer h5 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 414px) {
+    .content-img-text {
+        padding: 10% 33%;
+    }
+
+    .contact-detail {
+        padding-top: 10vw;
+    }
+
+    .contact-phone p {
+        margin-top: -5%;
+    }
+
+    .contact-email p {
+        margin-top: -10%;
+    }
+}
+
+@media (max-width: 411px) {
+    .content-img-text {
+        padding: 15% 33%;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-detail {
+        padding-top: 7vw;
+    }
+
+    .contact-detail {
+        padding-top: 4vw;
+    }
+}

@@ -1,0 +1,401 @@
+font-face {
+    font-family: "PingFangSC-Medium";
+    src: url("../font/苹方黑体-中粗-简.ttf Medium.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PingFangSC-Light";
+    src: url("../font/苹方黑体-细-简.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PingFangSC-Regular";
+    src: url("../font//苹方黑体-准-简.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "PingFangSC-Light", sans-serif;
+    color: #222;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.navbar {
+    background-color: #880303 !important;
+    position: fixed;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-tmall-text {
+    width: 9%;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 1.5%;
+    font-size: 1.35vw;
+    margin-right: -2.5vw;
+}
+
+.navbar-tmall-arrow {
+    width: 1%;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+    padding-top: 1.4%;
+}
+
+.navbar-hui-logo {
+    width: 10%;
+    float: right;
+    padding: 0%;
+    margin: 0%;
+}
+
+.content-logo {
+    width: 20%;
+    margin-top: -5%;
+    padding-bottom: 6%;
+}
+
+.content-topview {
+    width: 100%;
+}
+
+.content-detail h4 {
+    font-family: "PingFangSC-Medium";
+    padding: 5%;
+    font-size: 125%;
+}
+
+.content-detail img {
+    padding-bottom: 6%;
+    width: 60%;
+}
+
+.content-detail p {
+    padding-left: 32%;
+    padding-bottom: 6%;
+    line-height: 200%;
+    font-size: 1.1vw;
+}
+
+.content-detail hr {
+    width: 50%;
+    border-top: 1px solid #000000;
+}
+
+.content-detail h5 {
+    padding-top: 5%;
+}
+
+.content-img {
+    padding: 0%;
+    margin: 0%;
+}
+
+.content-img-left {
+    width: 80%;
+}
+
+.content-img-right {
+    width: 85%;
+    margin-left: -7%;
+}
+
+.content-text {
+    padding: 6% 20%;
+    font-size: 1.05vw;
+}
+
+.content-text-right {
+    padding-left: 10%;
+}
+
+.contact {
+    background-image: url("../imgs/Tai Tokerau view.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+}
+
+.contact-detail {
+    background-color: #333333;
+    opacity: 0.5;
+    color: #ffffff;
+    width: 40%;
+    height: 100%;
+}
+
+.contact-title {
+    margin-left: -15%;
+    padding-bottom: 5% !important;
+    padding-top: 30%;
+    font-size: 1.5vw;
+}
+
+.contact-location img {
+    width: 2%;
+    padding: 0%;
+    margin-left: -57%;
+}
+
+.contact-location p {
+    padding: 0%;
+    padding-left: 1%;
+    margin-top: -4%;
+    font-size: 1.02vw;
+}
+
+.contact-email img {
+    width: 3%;
+    padding: 0%;
+    margin-left: -57%;
+    margin-top: -1%;
+}
+
+.contact-email p {
+    padding: 0%;
+    margin-left: -17%;
+    margin-top: -4.2%;
+    font-size: 1.02vw;
+}
+
+.contact-phone img {
+    width: 3%;
+    padding: 0%;
+    margin-left: -57%;
+    margin-top: -1%;
+}
+
+.contact-phone p {
+    padding: 0%;
+    padding-bottom: 6%;
+    margin-top: -4.3%;
+    margin-left: -31%;
+    font-size: 1.02vw;
+}
+
+footer {
+    background-color: #880303;
+    color: #ffffff;
+    height: 12%;
+}
+
+footer h5 {
+    padding-top: 3%;
+    font-size: 1.4vw;
+}
+
+@media screen and (min-width: 1700px) {
+    .navbar-tmall-text {
+        font-size: 23px;
+    }
+
+    .content-text {
+        font-size: 18px;
+    }
+
+    .content-detail p {
+        font-size: 19px;
+    }
+
+    .contact-title {
+        font-size: 19px;
+    }
+
+    .contact-location p {
+        font-size: 17px;
+    }
+
+    .contact-email p {
+        font-size: 17px;
+    }
+
+    .contact-phone p {
+        font-size: 17px;
+    }
+
+    footer h5 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        height: 20vw;
+    }
+
+    .navbar-hui-logo {
+        width: 40%;
+        padding: 0;
+        margin: 0;
+        margin-top: -3vw;
+        margin-right: -3vw;
+    }
+
+    .navbar-tmall-title {
+        font-size: 5vw;
+        width: 30%;
+        padding: 0;
+        margin: 0;
+        margin-top: 2.5vw;
+        margin-right: -5vw;
+    }
+
+    .navbar-tmall-click {
+        font-size: 3vw;
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-top: 5vw;
+    }
+
+    .navbar-tmall-arrow {
+        width: 3%;
+        padding: 0;
+        margin: 0;
+        margin-top: 3vw;
+        margin-right: 21vw;
+    }
+
+    .content-logo {
+        width: 30vw;
+        margin-top: -100vw;
+    }
+
+    .content-topview {
+        width: 100%;
+        margin-top: 50vw;
+    }
+
+    .content-detail p {
+        padding-left: 5vw;
+        font-size: 2.7vw;
+    }
+
+    .content-img-left {
+        width: 100vw;
+    }
+
+    .content-img-right {
+        width: 100vw;
+        margin-left: 0%;
+    }
+
+    .content-img {
+        padding-bottom: 5vw;
+    }
+
+    .content-text {
+        font-size: 2.5vw;
+        padding: 0%;
+        padding-bottom: 5vw;
+    }
+
+    .content-text-right {
+        padding-top: 3vw;
+        padding-left: 15vw;
+        font-size: 3.5vw;
+    }
+
+    .content-text-left {
+        padding-top: 3vw;
+        font-size: 3.5vw;
+        padding-left: 25vw;
+    }
+
+    .contact {
+        height: 50%;
+    }
+
+    .contact-detail {
+        width: 100vw;
+        height: 45vw;
+        position: absolute;
+        top: 353.5vw;
+        opacity: 0.7;
+    }
+
+    .contact-title {
+        font-size: 3.5vw;
+        padding-top: 10%;
+    }
+
+    .contact-location p {
+        font-size: 2.5vw;
+    }
+
+    .contact-location img {
+        margin-left: -55%;
+    }
+
+    .contact-email img {
+        margin-left: -55%;
+    }
+
+    .contact-phone img {
+        margin-left: -55%;
+    }
+
+    .contact-email p {
+        font-size: 2.5vw;
+        margin-left: -16%;
+    }
+
+    .contact-phone p {
+        font-size: 2.5vw;
+        margin-left: -28%;
+    }
+
+    footer h5 {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 414px) {
+    .contact-detail {
+        top: 372.5vw;
+    }
+
+    .contact-title {
+        padding-top: 5vw;
+    }
+}
+
+@media (max-width: 411px) {
+    .contact-detail {
+        top: 373.5vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-detail {
+        top: 374.5vw;
+    }
+}
+
+@media (max-width: 360px) {
+    .contact-detail {
+        top: 375.5vw;
+    }
+
+    .contact-title {
+        padding-top: 3vw;
+    }
+}

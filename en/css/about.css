@@ -1,0 +1,2938 @@
+@font-face {
+    font-family: "GOTHAM-MEDIUM-REGULAR";
+    src: url("../font/GOTHAM MEDIUM REGULAR.TTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GOTHAM-BOOK";
+    src: url("../font/GOTHAM-BOOK.OTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GOTHAM-LIGHT";
+    src: url("../font/GOTHAMLIGHT_0.OTF");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "GOTHAM-LIGHT", sans-serif;
+    color: #222;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+/*---navbar --*/
+.navbar {
+    padding: 0.8rem;
+    background-color: #ffffff !important;
+    position: fixed;
+    top: 0;
+    height: 165px;
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+.nav-logo:after {
+    content: url(../imgs/home-combined-shape.png);
+    display: block;
+    position: absolute;
+    top: 70%;
+    z-index: -1;
+    border-radius: 50%;
+    width: 200px;
+    height: 70px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.navbar-nav ul li {
+    display: inline;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navbar-item-home {
+    margin-top: 13%;
+}
+
+.navbar-item-about {
+    margin-top: 13%;
+    margin-left: 25%;
+}
+
+.navbar-item-brand {
+    margin-top: 13%;
+    margin-left: 170%;
+}
+
+.navbar-item-contact {
+    margin-top: 13%;
+    margin-left: 20%;
+}
+
+/* .navbar-item-home:hover~hr {
+    margin-left: -180%;
+} */
+
+/* .navbar-item-brand:hover~hr {
+    margin-left: -70%;
+}
+
+.navbar-item-contact:hover~hr {
+    margin-left: -55%;
+} */
+
+.navbar hr {
+    height: 0.2rem;
+    width: 16%;
+    margin-top: 25%;
+    background: #880303;
+    border: none;
+    transition: 0.3s ease-in-out;
+    margin-left: -243%;
+}
+
+/* .navbar ul li a:before {
+    content: ' ';
+    width: 10px;
+    height: 35px;
+    background: #880303;
+    position: absolute;
+    top: 80%;
+    left: 30.5%;
+    transition: .5s;
+} */
+
+/* .navbar ul li:hover a:before {
+    width: 50%;
+    transform: translateY(100%);
+  } */
+
+.navbar-item a {
+    width: 50%;
+    margin-left: 100%;
+}
+
+.nav-logo {
+    width: 20%;
+    float: left;
+    margin-left: -6%;
+}
+
+.nav-logo img {
+    width: 100%;
+    float: left;
+    margin-left: -165%;
+    margin-top: 10%;
+}
+
+.navbar-tmall-title {
+    padding-top: 0.5%;
+}
+
+.navbar-tmall-title {
+    text-decoration: none !important;
+}
+
+.navbar-tmall h5 {
+    font-size: 95%;
+    color: #880303;
+}
+
+.navbar-tmall img {
+    padding-left: 10%;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.mega-menu {
+    position: absolute;
+    width: 1700px;
+    overflow: hidden;
+    padding: 60px 10px;
+    margin-top: 36%;
+    margin-left: -1162%;
+}
+
+.dropdown-item {
+    padding: 10px;
+    margin-left: 0% !important;
+    letter-spacing: 0px !important;
+}
+
+/* .dropdown:hover>.dropdown-menu {
+    display: block;
+} */
+
+.dropdown-menu a:hover {
+    width: 100%;
+    color: #ffffff;
+    background-color: #880303;
+}
+
+/* music-player */
+.music-player {
+    /* margin-top: 11%; */
+    display: none;
+}
+
+.music-img-en {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 999;
+    width: 40px;
+}
+
+/*---carousel --*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 72%;
+    transform: translateY(-50%);
+}
+
+.carousel-caption p {
+    font-size: 110%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+    padding-top: 12%;
+}
+
+.carousel-caption h3 {
+    font-size: 300%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.red-text {
+    color: #880303;
+}
+
+/* hui-des */
+.hui-des {
+    background-color: #880303;
+    height: 60%;
+}
+
+.hui-des-text {
+    padding-top: 2% !important;
+    padding-left: 20% !important;
+}
+
+.hui-des-text h3 {
+    padding-left: 3%;
+}
+
+.hui-des-text h5 {
+    padding-left: 20%;
+}
+
+.hui-des-text p {
+    font-family: "GOTHAM-BOOK", sans-serif;
+    padding-left: 13%;
+    width: 90%;
+}
+
+.hui-des-logo {
+    width: 80%;
+}
+
+.hui-des-img {
+    height: 70%;
+    padding-top: 5%;
+}
+
+/* brand-des */
+.brand-des {
+    background-color: #880303;
+    height: 82%;
+}
+
+.combine-img {
+    width: 55%;
+    margin-left: 37%;
+}
+
+.brand-des-mark {
+    float: right;
+    margin-right: -40%;
+    margin-top: 10%;
+}
+
+.brand-des-text {
+    padding-top: 0% !important;
+    padding-left: 10% !important;
+    overflow: hidden;
+}
+
+.brand-des-text h1 {
+    font-size: 300%;
+    padding-top: 25%;
+}
+
+.brand-des-text h5 {
+    font-family: "GOTHAM-BOOK", sans-serif;
+    font-size: 120%;
+    padding-top: 12%;
+}
+
+.brand-des-text p {
+    font-family: "GOTHAM-BOOK", sans-serif;
+    padding-top: 3%;
+    width: 65%;
+}
+
+.brand-des-pic {
+    padding-top: 9% !important;
+}
+
+/*---honey-des --*/
+.honey-des {
+    padding-top: 6%;
+    height: 66.8%;
+}
+
+.honey-des h1 {
+    font-size: 300%;
+    padding-bottom: 5%;
+    margin-left: 40%;
+}
+
+.honey-des h3 {
+    font-family: "GOTHAM-BOOK", sans-serif;
+    font-weight: bold;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin-left: 40%;
+}
+
+.honey-des p {
+    margin-left: 40%;
+}
+
+.honey-des-mark {
+    float: left;
+    margin-left: -4%;
+    margin-top: -8%;
+    width: 25%;
+}
+
+/*---wine-des --*/
+.wine-des video {
+    margin-left: 18%;
+    margin-top: 22%;
+}
+
+.wine-des-text {
+    overflow: hidden;
+}
+
+.wine-des-text p {
+    width: 65%;
+}
+
+.wine-des h3 {
+    font-family: "GOTHAM-BOOK", sans-serif;
+    font-weight: bold;
+    padding-top: 30%;
+    padding-bottom: 5%;
+}
+
+.wine-des-mark {
+    float: right;
+    margin-right: -30%;
+    margin-top: 5%;
+    width: 50%;
+}
+
+/*---more-des --*/
+.more-des {
+    background-color: #880303;
+    height: 21%;
+}
+
+.more-des-text h3 {
+    font-family: "GOTHAM-BOOK", sans-serif;
+    font-size: 150%;
+    padding-top: 4%;
+}
+
+.more-des-mark {
+    width: 50%;
+    padding-top: 4%;
+}
+
+.more-img-right img {
+    float: right;
+}
+
+/* quality-des */
+.quality-des {
+    height: 46%;
+}
+
+.quality-des-code {
+    margin-left: 15%;
+}
+
+.quality-des-code img {
+    padding-top: 10%;
+}
+
+.quality-des-code p {
+    font-size: 85%;
+}
+
+.quality-des-text {
+    padding-top: 1% !important;
+    margin-left: -15%;
+}
+
+.quality-des-text h1 {
+    padding-top: 12%;
+    padding-bottom: 1%;
+}
+
+.quality-des-text p {
+    color: #000;
+}
+
+/*---slide --*/
+.carousel-caption-container {
+    color: #ffffff;
+}
+
+.carousel-caption-tmall-logo {
+    width: 25% !important;
+    height: auto !important;
+    margin-top: -66%;
+    margin-left: -118%;
+}
+
+.carousel-caption-hui-logo {
+    width: 30% !important;
+    height: auto !important;
+    margin-top: -18%;
+    padding-bottom: 10%;
+}
+
+.carousel-caption a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-caption a h1 {
+    font-size: 250%;
+}
+
+/*---social --*/
+.contact-section {
+    background-color: #880303;
+    height: 60%;
+}
+
+.contact-text {
+    float: left;
+    margin-left: -3%;
+    margin-top: 12%;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.social-text {
+    padding-top: 10%;
+}
+
+.contact-mark {
+    margin-left: -35%;
+    margin-top: 20%;
+    float: left;
+}
+
+.wechat-img {
+    width: 12%;
+    margin-left: -55%;
+}
+
+.weibo-img {
+    width: 12%;
+    margin-left: -20%;
+}
+
+form {
+    background-color: #ffffff;
+    width: 60%;
+    height: 85%;
+    color: #9b9a9b;
+    border-radius: 1%;
+    float: left;
+    z-index: 99;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 15%;
+    position: relative;
+}
+
+.form-group {
+    padding-left: 10%;
+}
+
+form h2 {
+    padding: 10% 6% !important;
+    font-family: "Roboto-Italic", "GOTHAM-LIGHT", sans-serif;
+}
+
+form input {
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid #9b9a9b;
+}
+
+form textarea {
+    width: 80%;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #9b9a9b;
+}
+
+form img {
+    width: 100%;
+    margin-left: 100%;
+}
+
+.mailbtn {
+    border: none;
+}
+
+.mailbtn:focus {
+    border: none;
+    outline: none;
+}
+
+/*---footer --*/
+footer {
+    padding-top: 0rem;
+}
+
+.footer-nav {
+    padding: 5%;
+    padding-left: 12%;
+    padding-bottom: 0%;
+}
+
+.copytright {
+    padding-left: 12%;
+}
+
+.footer-nav li {
+    padding-right: 25px;
+    display: inline;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #000000;
+}
+
+.red-mark {
+    padding: 0rem !important;
+}
+
+.red-mark img {
+    width: 50%;
+    float: right;
+    margin-right: 30%;
+}
+
+.lang-btn {
+    color: rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-top: -8%;
+    margin-right: -3.5%;
+}
+
+.lang-btn:hover {
+    text-decoration: none;
+    background-color: #880303;
+    color: #ffffff;
+}
+
+/*---Media Queries --*/
+@media (max-width: 1900px) {
+    .nav-logo img {
+        margin-top: 10%;
+    }
+
+    .wine-des video {
+        margin-top: 23%;
+    }
+
+    .carousel-caption a h1 {
+        margin-top: -3%;
+    }
+}
+
+@media (max-width: 1800px) {
+    .wine-des video {
+        margin-top: 24%;
+    }
+
+    .nav-logo img {
+        margin-top: 10%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .nav-logo img {
+        margin-left: -162%;
+        margin-top: 10%;
+    }
+
+    .carousel-caption p {
+        padding-top: 10%;
+    }
+
+    .honey-des h3 {
+        margin-left: 35%;
+    }
+
+    .honey-des-text p {
+        margin-left: 35%;
+    }
+
+    .wine-des video {
+        margin-top: 23%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .mega-menu {
+        width: 1600px;
+        margin-left: -1125%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 160%;
+    }
+
+    .navbar hr {
+        margin-left: -233%;
+    }
+
+    .nav-logo img {
+        margin-left: -160%;
+        margin-top: 10%;
+    }
+
+    .carousel-caption p {
+        padding-top: 7%;
+    }
+
+    .brand-des-mark {
+        margin-right: -47%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 250%;
+    }
+
+    .brand-des-text h5 {
+        font-size: 100%;
+    }
+
+    .honey-des h3 {
+        margin-left: 30%;
+    }
+
+    .honey-des-text p {
+        margin-left: 30%;
+    }
+
+    .wine-des video {
+        margin-top: 24%;
+        width: 80%;
+    }
+
+    .quality-des-code {
+        margin-left: 8%;
+    }
+
+    .quality-des-text {
+        margin-left: -8%;
+    }
+
+    .brand-des {
+        height: 79%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .mega-menu {
+        width: 1500px;
+        margin-left: -979%;
+    }
+
+    .nav-logo img {
+        margin-left: -154%;
+        margin-top: 10%;
+    }
+
+    .navbar-item-home {
+        margin-left: 7%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 115%;
+    }
+
+    .navbar hr {
+        margin-left: -188%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 250%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 220%;
+    }
+
+    .brand-des-text h5 {
+        font-size: 90%;
+    }
+
+    .brand-des {
+        height: 75%;
+    }
+
+    .honey-des h3 {
+        margin-left: 25%;
+    }
+
+    .honey-des-text p {
+        margin-left: 25%;
+    }
+
+    .wine-des video {
+        margin-top: 23%;
+        width: 80%;
+    }
+
+    .more-des-text h3 {
+        font-size: 140%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .nav-logo img {
+        margin-left: -150%;
+        margin-top: 10%;
+    }
+
+    .navbar-item-home {
+        margin-left: -5%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 110%;
+    }
+
+    .navbar hr {
+        margin-left: -183%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 200%;
+    }
+
+    .carousel-caption p {
+        font-size: 90%;
+    }
+
+    .hui-des-text h3 {
+        padding-left: 0%;
+        font-size: 150%;
+    }
+
+    .hui-des-text h5 {
+        font-size: 110%;
+    }
+
+    .hui-des-text p {
+        font-size: 85%;
+    }
+
+    .brand-des-mark {
+        margin-right: -54%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 200%;
+    }
+
+    .brand-des-text h5 {
+        font-size: 80%;
+    }
+
+    .brand-des-text p {
+        font-size: 85%;
+    }
+
+    .brand-des {
+        height: 68%;
+    }
+
+    .honey-des h3 {
+        font-size: 120%;
+    }
+
+    .honey-des-text p {
+        font-size: 90%;
+    }
+
+    .wine-des video {
+        margin-top: 20%;
+        width: 80%;
+    }
+
+    .wine-des h3 {
+        font-size: 120%;
+        margin-top: -3%;
+    }
+
+    .wine-des-text p {
+        font-size: 90%;
+    }
+
+    .quality-des-code img {
+        width: 75%;
+    }
+
+    .quality-des-code p {
+        font-size: 75%;
+    }
+
+    .quality-des-text h1 {
+        font-size: 180%;
+    }
+
+    .quality-des-text p {
+        font-size: 90%;
+    }
+
+    .quality-des {
+        height: 45%;
+    }
+
+    .mega-menu {
+        width: 1400px;
+        margin-left: -913%;
+    }
+
+    form {
+        margin-top: 18%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .navbar-item-home {
+        margin-left: -10%;
+    }
+
+    .navbar-item-about {
+        margin-left: 17%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 100%;
+    }
+
+    .navbar hr {
+        margin-left: -173%;
+    }
+
+    .mega-menu {
+        width: 1300px;
+        margin-left: -825%;
+    }
+
+    .nav-logo img {
+        margin-left: -145%;
+        margin-top: 10%;
+    }
+
+    .brand-des-mark {
+        margin-right: -57%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 180%;
+    }
+
+    .brand-des-text h5 {
+        font-size: 70%;
+    }
+
+    .brand-des-text p {
+        font-size: 85%;
+    }
+
+    .brand-des {
+        height: 65%;
+    }
+
+    .honey-des h3 {
+        font-size: 110%;
+    }
+
+    .honey-des-text p {
+        font-size: 80%;
+    }
+
+    .wine-des video {
+        margin-top: 12%;
+        width: 80%;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -68%;
+    }
+
+    .carousel-caption a h1 {
+        font-size: 200%;
+    }
+
+    .wine-des h3 {
+        font-size: 110%;
+        margin-top: -15%;
+    }
+
+    .wine-des-text p {
+        font-size: 80%;
+    }
+
+    .more-des-text h3 {
+        font-size: 120%;
+    }
+
+    .quality-des-code img {
+        width: 65%;
+    }
+
+    .quality-des-code p {
+        font-size: 65%;
+    }
+
+    .quality-des-text h1 {
+        font-size: 160%;
+    }
+
+    .quality-des-text p {
+        font-size: 80%;
+    }
+
+    .contact-mark {
+        margin-left: -37%;
+    }
+
+    .honey-des h1 {
+        font-size: 200%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-item-about {
+        margin-left: 10%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 90%;
+    }
+
+    .navbar-item-contact {
+        margin-left: 12%;
+    }
+
+    .nav-logo img {
+        margin-left: -138%;
+        margin-top: 10%;
+    }
+
+    .navbar hr {
+        margin-left: -155%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 150%;
+    }
+
+    .carousel-caption p {
+        font-size: 80%;
+    }
+
+    .hui-des {
+        height: 60%;
+    }
+
+    .brand-des-mark {
+        margin-right: -60%;
+    }
+
+    .brand-des-pic {
+        padding-top: 12% !important;
+    }
+
+    .brand-des-text h1 {
+        font-size: 180%;
+    }
+
+    .brand-des-text h5 {
+        font-size: 70%;
+    }
+
+    .brand-des-text p {
+        font-size: 85%;
+    }
+
+    .honey-des h3 {
+        font-size: 100%;
+    }
+
+    .honey-des-text p {
+        font-size: 70%;
+    }
+
+    .wine-des video {
+        margin-top: 10%;
+        width: 80%;
+    }
+
+    .wine-des h3 {
+        font-size: 100%;
+        margin-top: -18%;
+    }
+
+    .wine-des-text p {
+        font-size: 70%;
+    }
+
+    .quality-des-code img {
+        width: 60%;
+    }
+
+    .quality-des-code p {
+        font-size: 60%;
+    }
+
+    .quality-des-text h1 {
+        font-size: 150%;
+    }
+
+    .quality-des-text p {
+        font-size: 75%;
+    }
+
+    .quality-des {
+        height: 37%;
+    }
+
+    .contact-mark {
+        margin-left: -40%;
+    }
+
+    .mega-menu {
+        width: 1200px;
+        margin-left: -761%;
+    }
+
+    form {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .nav-logo img {
+        margin-left: -130%;
+        margin-top: 10%;
+    }
+
+    .navbar-item-about {
+        margin-left: 9%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 70%;
+    }
+
+    .navbar-item-contact {
+        margin-left: 8%;
+    }
+
+    .navbar hr {
+        margin-left: -131%;
+        margin-top: 25%;
+    }
+
+    .more-des-text h3 {
+        font-size: 100%;
+    }
+
+    .hui-des-img {
+        height: 53%;
+    }
+
+    .hui-des {
+        height: 50%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 160%;
+    }
+
+    .brand-des-pic {
+        padding-top: 16% !important;
+    }
+
+    .more-des {
+        height: 15%;
+    }
+
+    .contact-mark {
+        margin-left: -45%;
+    }
+
+    .contact-text {
+        margin-left: 20%;
+        margin-top: -65%;
+    }
+
+    .mega-menu {
+        width: 1100px;
+        margin-top: 14%;
+        margin-left: -681%;
+    }
+
+    form {
+        margin-top: 23%;
+    }
+
+    .navbar {
+        height: 15%;
+    }
+
+    .nav-logo:after {
+        top: 55%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar {
+        height: 10%;
+    }
+
+    .navbar-item-home {
+        margin-left: -20%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 60%;
+    }
+
+    .navbar hr {
+        margin-left: -122%;
+    }
+
+    .lang-btn {
+        margin-right: -9.5%;
+    }
+
+    .nav-logo img {
+        margin-left: -155%;
+    }
+
+    .mega-menu {
+        width: 1024px;
+        margin-left: -603%;
+    }
+
+    .mega-menu a {
+        font-size: 82%;
+    }
+
+    .hui-des-img {
+        height: 49%;
+    }
+
+    .hui-des {
+        height: 32%;
+    }
+
+    .brand-des {
+        height: 42%;
+    }
+
+    .honey-des {
+        height: 38.8%;
+    }
+
+    .more-des {
+        height: 9%;
+    }
+
+    .quality-des {
+        height: 21%;
+    }
+
+    .contact-section {
+        height: 37%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav-logo img {
+        margin-left: -123%;
+        margin-top: 10%;
+    }
+
+    .navbar-item-home {
+        margin-left: -15%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 73%;
+    }
+
+    .navbar-item a {
+        font-size: 90% !important;
+    }
+
+    .navbar hr {
+        margin-left: -134%;
+    }
+
+    .hui-des-img {
+        height: 48%;
+    }
+
+    .hui-des-text p {
+        font-size: 75%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 130%;
+    }
+
+    .brand-des-text p {
+        font-size: 75%;
+    }
+
+    .hui-des {
+        height: 45%;
+    }
+
+    .brand-des {
+        height: 60%;
+    }
+
+    .carousel-caption-hui-logo {
+        margin-top: -30%;
+    }
+
+    .carousel-caption a h1 {
+        margin-top: -9%;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -71%;
+    }
+
+    .mega-menu {
+        width: 1000px;
+        margin-top: 26%;
+        margin-left: -717%;
+    }
+
+    form {
+        margin-top: 28%;
+        height: 80%;
+    }
+
+    .footer-item {
+        font-size: 90%;
+    }
+
+    .more-des-text h3 {
+        font-size: 97%;
+    }
+
+    .contact-mark {
+        margin-left: -50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-item-home {
+        margin-left: -24%;
+    }
+
+    .navbar-item-contact {
+        margin-left: -14%;
+    }
+
+    .navbar hr {
+        margin-left: -73%;
+        margin-top: 29%;
+    }
+
+    .nav-logo img {
+        margin-left: -188%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 120%;
+    }
+
+    .carousel-caption p {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 900px) {
+    .navbar-item-about {
+        margin-left: 5%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 65%;
+    }
+
+    .navbar-item-contact {
+        margin-left: 0%;
+    }
+
+    .navbar hr {
+        margin-left: -118%;
+        margin-top: 27%;
+    }
+
+    .nav-logo img {
+        margin-left: -110%;
+        margin-top: 0%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 100%;
+    }
+
+    .carousel-caption p {
+        font-size: 50%;
+    }
+
+    .mega-menu {
+        width: 900px;
+        margin-top: 21%;
+        margin-left: -637%;
+    }
+
+    .mega-menu a {
+        font-size: 75% !important;
+    }
+
+    .hui-des-img {
+        height: 44%;
+    }
+
+    .contact-mark {
+        margin-left: -54%;
+    }
+
+    .more-des {
+        height: 13%;
+    }
+
+    .more-des-text h3 {
+        font-size: 87%;
+    }
+
+    form {
+        height: 75%;
+        margin-top: 33%;
+    }
+}
+
+@media (max-width: 800px) {
+    .hui-des-img {
+        height: 39%;
+    }
+
+    .hui-des {
+        height: 40%;
+    }
+
+    .hui-des-text h3 {
+        font-size: 115%;
+    }
+
+    .hui-des-text p {
+        font-size: 65%;
+    }
+
+    .brand-des {
+        height: 55%;
+    }
+
+    .brand-des-text h1 {
+        font-size: 120%;
+    }
+
+    .brand-des-text p {
+        font-size: 65%;
+    }
+
+    .nav-logo img {
+        margin-left: -95%;
+        margin-top: 10%;
+    }
+
+    .navbar-item-about {
+        margin-left: 0%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 43%;
+    }
+
+    .mega-menu {
+        width: 800px;
+        margin-left: -533%;
+    }
+
+    .mega-menu a {
+        font-size: 66% !important;
+    }
+
+    .navbar hr {
+        margin-left: -96%;
+        margin-top: 25%;
+    }
+
+    .nav-logo:after {
+        top: 52%;
+    }
+
+    .more-des-text h3 {
+        font-size: 75%;
+    }
+
+    .quality-des-text p {
+        font-size: 65%;
+    }
+
+    .honey-des h1 {
+        font-size: 160%;
+    }
+
+    .quality-des {
+        height: 28%;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -74%;
+    }
+
+    .footer-item {
+        font-size: 75%;
+    }
+
+    .contact-mark {
+        margin-left: -55%;
+    }
+
+    form {
+        margin-top: 40%;
+        height: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-item a {
+        font-size: 80% !important;
+    }
+
+    .navbar-item-home {
+        margin-left: -26%;
+    }
+
+    .navbar-item-brand {
+        margin-left: 45%;
+    }
+
+    .navbar hr {
+        margin-left: -98%;
+    }
+
+    .nav-logo img {
+        margin-left: -145%;
+    }
+
+    .nav-logo:after {
+        top: 40%;
+    }
+
+    .navbar-tmall h5 {
+        font-size: 70%;
+    }
+
+    .navbar-tmall img {
+        width: 80%;
+    }
+
+    .lang-btn {
+        font-size: 80%;
+        margin-top: -10%;
+    }
+
+    .mega-menu {
+        width: 768px;
+        margin-top: 10%;
+        margin-left: -564%;
+    }
+
+    .mega-menu a {
+        font-size: 62% !important;
+    }
+
+    .hui-des-img {
+        height: 36%;
+    }
+
+    .hui-des {
+        height: 32%;
+    }
+
+    .brand-des {
+        height: 45%;
+    }
+
+    .wine-des video {
+        margin-top: 45%;
+    }
+
+    .wine-des h3 {
+        margin-top: 35%;
+    }
+
+    .more-des-text h3 {
+        font-size: 70%;
+    }
+
+    .more-des {
+        height: 9%;
+    }
+
+    .quality-des-code p {
+        font-size: 55%;
+    }
+
+    .carousel-caption a h1 {
+        margin-top: -12%;
+        font-size: 140%;
+    }
+
+    .contact-section {
+        height: 49%;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+
+    #navbarResponsive {
+        height: 0px;
+    }
+
+    #navbarResponsive ul {
+        background-color: #880303;
+        height: 100px;
+        width: 100vw;
+        margin-left: -2.2%;
+    }
+
+    #navbarResponsive ul li {
+        width: 10px;
+        font-size: 3vw;
+    }
+
+    #navbarResponsive ul li a {
+        color: #ffffff;
+    }
+
+    .navbar hr {
+        background: #ffffff;
+        width: 7vw;
+        margin-left: 29vw;
+        margin-top: -1vw;
+        padding-top: 0%;
+    }
+
+    .navbar-item-home {
+        margin-top: 5vw;
+        margin-left: 6vw;
+    }
+
+    .navbar-item-about {
+        margin-top: -6vw;
+        margin-left: 27vw;
+    }
+
+    .navbar-item-brand {
+        margin-top: -6vw;
+        margin-left: 53vw;
+    }
+
+    .navbar-item-contact {
+        margin-top: -6vw;
+        margin-left: 78vw;
+    }
+
+    .mega-menu {
+        padding: 0;
+        width: 100vw;
+        margin-top: 5vw;
+        margin-left: -53vw;
+        overflow: auto;
+    }
+
+    .mega-menu a {
+        color: #000000 !important;
+        font-size: 3.5vw !important;
+    }
+
+    .mega-menu a:hover {
+        color: #ffffff !important;
+    }
+
+    .dropdown-menu-item {
+        width: 50%;
+    }
+
+    .carousel-caption {
+        top: 72vw;
+    }
+
+    .carousel-caption-container {
+        margin-top: -65%;
+    }
+
+    .carousel-caption a h1 {
+        margin-top: 15%;
+    }
+
+    .carousel-caption-hui-logo {
+        width: 57% !important;
+        margin-bottom: -20%;
+    }
+
+    .carousel-caption-text h1 {
+        font-size: 85% !important;
+        margin-top: 30%;
+    }
+
+    .carousel-caption-text h4 {
+        font-size: 85% !important;
+    }
+
+    .carousel-caption-tmall-logo {
+        width: 35% !important;
+        padding-top: 4%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 100%;
+        line-height: 0;
+    }
+
+    .carousel-caption p {
+        margin-left: 38%;
+        margin-top: -6%;
+    }
+
+    .carousel-caption .btn {
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .display-4 {
+        font-size: 160%;
+    }
+
+    .hui-des-text h3 {
+        padding-left: 20%;
+    }
+
+    .hui-des-text h5 {
+        padding-left: 30%;
+    }
+
+    .hui-des-text p {
+        font-size: 90%;
+        padding-left: 0%;
+    }
+
+    .brand-des {
+        height: 175vw;
+    }
+
+    .hui-des {
+        height: 100%;
+    }
+
+    .brand-des-text {
+        margin-top: -40vw;
+    }
+
+    .brand-des-text h5 {
+        font-size: 100%;
+    }
+
+    .brand-des-text p {
+        font-size: 100%;
+        width: 72vw;
+    }
+
+    .brand-des-pic {
+        padding-top: 0% !important;
+    }
+
+    .combine-img {
+        padding-top: 5vw;
+        width: 68vw;
+        margin-left: 13vw;
+    }
+
+    .combine-img-up {
+        margin-top: -5%;
+    }
+
+    .combine-img-down {
+        margin-top: 5%;
+    }
+
+    .honey-des h1 {
+        margin-left: 25vw;
+        font-size: 4.5vw;
+    }
+
+    .honey-des h3 {
+        font-size: 150%;
+        margin-left: 5vw;
+        padding-top: 15%;
+    }
+
+    .honey-des-text p {
+        font-size: 90%;
+        margin-left: 5vw;
+        margin-top: 5vw;
+        padding-right: 5vw;
+    }
+
+    .honey-des {
+        height: 135vw;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .honey-des-mark {
+        float: right;
+        margin-left: -5%;
+        margin-top: 10%;
+    }
+
+    .brand-des-text {
+        padding-left: 16% !important;
+    }
+
+    .wine-des {
+        height: 235vw;
+        padding: 0%;
+        margin: 1% 0%;
+    }
+
+    .wine-des h3 {
+        font-size: 150%;
+        margin-top: -8vw;
+        text-align: right;
+        margin-right: 15%;
+    }
+
+    .wine-des-text p {
+        font-size: 90%;
+        margin-left: 5vw;
+        padding-top: 3vw;
+        width: 90vw;
+    }
+
+    .wine-des video {
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .wine-des-mark {
+        float: left;
+        margin-right: -25%;
+        width: 25%;
+    }
+
+    .hui-des-img-con {
+        padding: 0% !important;
+        margin: 0%;
+    }
+
+    .hui-des-img {
+        height: 67vw;
+    }
+
+    .more-des {
+        height: 25vw;
+        margin-top: 1vw;
+    }
+
+    .more-des-text h3 {
+        padding-top: 0%;
+        line-height: 160%;
+    }
+
+    .quality-des {
+        height: 65vw;
+    }
+
+    .quality-des-text {
+        margin-left: 8vw;
+        margin-top: 0%;
+    }
+
+    .quality-des-text h1 {
+        margin-left: 25%;
+    }
+
+    .quality-des-text p {
+        font-size: 80%;
+        margin-left: -6vw;
+    }
+
+    .quality-des-code {
+        margin-left: 8%;
+        margin-top: -10%;
+    }
+
+    .quality-des-code img {
+        width: 90%;
+        margin-left: 0%;
+    }
+
+    .quality-des-code p {
+        font-size: 80%;
+        margin-left: -5vw;
+        margin-top: 5%;
+    }
+
+    .carousel-inner-img {
+        margin-top: 0% !important;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -94vw !important;
+        margin-right: -10%;
+    }
+
+    .carousel-caption-hui-logo {
+        margin-top: 0vw !important;
+    }
+
+    .social a {
+        font-size: 2em;
+        padding: 0.7rem;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+
+    .lang-btn {
+        margin-right: 0%;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150,3,5, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+        margin-left: 55%;
+    }
+
+    .navbar-toggler {
+        border: hidden;
+    }
+
+    .nav-logo {
+        width: 35%;
+    }
+
+    .nav-logo img {
+        margin: auto;
+        width: 200%;
+        /* margin-left: 100%;
+      margin-top: -30%; */
+    }
+
+    .carousel-inner img {
+        margin-top: 24%;
+    }
+
+    .nav-logo:after {
+        width: 100px;
+        height: 45px;
+        left: 5px;
+        top: 62%;
+    }
+
+    .welcome p {
+        font-size: 75%;
+        width: 315%;
+        margin-left: -104%;
+    }
+
+    .title-img {
+        height: 33%;
+        float: left;
+        margin-top: 30%;
+        margin-left: 30%;
+    }
+
+    .title-section {
+        height: 35%;
+    }
+
+    .title-pic {
+        width: 55%;
+        margin-left: -5%;
+    }
+
+    .title-text {
+        width: 50%;
+    }
+
+    .title-text h3 {
+        font-size: 120%;
+        margin-top: 80%;
+    }
+
+    .title-text h1 {
+        font-size: 140% !important;
+        width: 265%;
+        padding-right: 100%;
+    }
+
+    .title-mark-right {
+        float: right;
+        width: 70%;
+        margin-right: -12%;
+    }
+
+    .video-section {
+        height: auto;
+        padding-bottom: 0;
+    }
+
+    .video-text-top {
+        margin-left: -27%;
+        margin-top: 10%;
+    }
+
+    .video-text-top p {
+        font-size: 80%;
+    }
+
+    .arrow-img {
+        padding-right: 38%;
+        margin-top: 0%;
+    }
+
+    .video-fern-img {
+        margin-left: 62%;
+        margin-top: 5%;
+    }
+
+    .code-img {
+        width: 50%;
+        border-radius: 0%;
+        margin-right: -3%;
+        margin-top: 5%;
+    }
+
+    .video-text-bottom {
+        margin-left: 22%;
+        margin-top: 50%;
+    }
+
+    .video-text-bottom p {
+        font-size: 75%;
+    }
+
+    .video-section video {
+        float: left;
+        margin-top: -108%;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .brand-logo {
+        width: 60%;
+    }
+
+    .brand-title h1 {
+        font-size: 130%;
+        margin-top: -5%;
+    }
+
+    .card-group {
+        margin-top: -10%;
+    }
+
+    .brand-card .card {
+        width: 29%;
+        margin-bottom: -130px;
+        overflow: hidden;
+    }
+
+    .honey-card-container {
+        margin-left: -11%;
+    }
+
+    .wine-card-container {
+        margin-left: 18%;
+    }
+
+    .snack-card-container {
+        margin-left: 47%;
+    }
+
+    .beverage-card-container {
+        margin-left: 76%;
+    }
+
+    .card-body h4 {
+        margin-top: 28%;
+    }
+
+    .card-body p {
+        margin-top: -40%;
+        margin-right: 37%;
+    }
+
+    .honey-brand-img,
+    .wine-brand-img,
+    .snack-brand-img,
+    .beverage-brand-img {
+        width: 35%;
+    }
+
+    .brand-pic-section {
+        min-height: 150px;
+        margin-bottom: -35%;
+    }
+
+    .social-text {
+        margin-left: -12vw;
+    }
+
+    .social-text h3 {
+        font-size: 150%;
+    }
+
+    .social-text p {
+        font-size: 90%;
+        width: 120%;
+    }
+
+    .social-img {
+        float: right;
+        margin-top: -35vw;
+        margin-right: -25vw;
+    }
+
+    .wechat-img {
+        width: 20%;
+        margin-left: -25%;
+    }
+
+    .weibo-img {
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    .contact-section {
+        height: 32%;
+    }
+
+    .contact-text {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    .footer-nav {
+        padding-left: 18vw;
+        font-size: 80%;
+        margin-top: 110%;
+    }
+
+    form {
+        width: 100%;
+        height: 70%;
+        margin-top: -13%;
+        box-shadow: none;
+    }
+
+    form input {
+        width: 85%;
+    }
+
+    form textarea {
+        width: 85%;
+    }
+
+    form img {
+        width: 100%;
+        margin-left: 120%;
+    }
+
+    .footer-item {
+        font-size: 2vw;
+    }
+
+    .copytright {
+        padding-left: 25vw;
+        font-size: 2vw;
+    }
+
+    .footer-mark img {
+        width: 25%;
+        margin-right: 0%;
+        margin-top: -45%;
+    }
+
+    .lang-btn {
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .wine-des {
+        margin-bottom: 15vw;
+    }
+
+    .wine-des video {
+        margin-top: 52%;
+    }
+
+    .more-des {
+        margin-top: 12vw;
+    }
+
+    .quality-des {
+        height: 75vw;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -95vw !important;
+    }
+}
+
+@media (max-width: 510px) {
+    .brand-des-text {
+        margin-top: -55vw;
+    }
+
+    .wine-des {
+        margin-bottom: 40vw;
+    }
+
+    .wine-des video {
+        margin-top: 60%;
+    }
+
+    .more-des {
+        margin-top: 40vw;
+    }
+
+    .quality-des-text h1 {
+        margin-left: 20%;
+    }
+
+    .quality-des {
+        height: 85vw;
+    }
+}
+
+@media (max-width: 475px) {
+    .brand-des-text {
+        margin-top: -70vw;
+    }
+
+    .wine-des {
+        margin-bottom: 55vw;
+    }
+
+    .wine-des video {
+        margin-top: 70%;
+    }
+
+    .more-des {
+        margin-top: 55vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .wine-des {
+        margin-bottom: 75vw;
+    }
+
+    .wine-des video {
+        margin-top: 80%;
+    }
+
+    .more-des {
+        margin-top: 75vw;
+    }
+
+    .quality-des {
+        height: 95vw;
+    }
+}
+
+@media (max-width: 440px) {
+    .brand-des-text {
+        margin-top: -85vw;
+    }
+
+    .wine-des {
+        margin-bottom: 95vw;
+    }
+
+    .wine-des video {
+        margin-top: 90%;
+    }
+
+    .more-des {
+        margin-top: 95vw;
+    }
+
+    .quality-des {
+        height: 100vw;
+    }
+
+    .quality-des-text h1 {
+        margin-left: 15%;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -96vw !important;
+    }
+
+    .footer-nav {
+        padding-left: 14vw;
+    }
+}
+
+@media (max-width: 414px) {
+    #navbarResponsive ul {
+        margin-left: -2.8vw;
+    }
+
+    #navbarResponsive ul li {
+        font-size: 4vw;
+    }
+
+    .navbar-item-home {
+        margin-top: 7vw;
+    }
+
+    .navbar-item-about {
+        margin-top: -8.5vw;
+    }
+
+    .navbar-item-brand {
+        margin-top: -8.5vw;
+        margin-left: 50vw;
+    }
+
+    .navbar-item-contact {
+        margin-top: -8.5vw;
+        margin-left: 75vw;
+    }
+
+    .navbar hr {
+        margin-left: 31vw;
+        margin-top: 0vw;
+        width: 8vw;
+    }
+
+    .mega-menu {
+        margin-top: 7vw;
+        margin-left: -50vw;
+    }
+
+    .nav-logo:after {
+        left: -20px;
+    }
+
+    .lang-btn {
+        font-size: 3.5vw;
+    }
+
+    .brand-des {
+        height: 150vw;
+    }
+
+    .brand-des-text h5 {
+        font-size: 3.5vw;
+    }
+
+    .brand-des-text p {
+        font-size: 3.1vw;
+    }
+
+    .honey-des {
+        height: 180vw;
+    }
+
+    .honey-des h1 {
+        margin-left: 22vw;
+        font-size: 5vw;
+    }
+
+    .honey-des-text p {
+        font-size: 3.5vw;
+        margin-left: 8vw;
+    }
+
+    .wine-des {
+        height: 205vw;
+    }
+
+    .wine-des-text p {
+        font-size: 3.5vw;
+        margin-left: 5vw;
+    }
+
+    .wine-des video {
+        margin-top: 50%;
+    }
+
+    .more-des {
+        height: 40vw;
+    }
+
+    .quality-des {
+        height: 115vw;
+    }
+
+    .quality-des-text {
+        margin-left: -3vw;
+    }
+
+    .quality-des-text h1 {
+        margin-left: 22%;
+    }
+
+    .quality-des-text p {
+        font-size: 3.5vw;
+        margin-left: 10vw;
+    }
+
+    .quality-des-code p {
+        font-size: 3.5vw;
+        margin-left: -5%;
+    }
+
+    .carousel-inner {
+        margin-top: 10vw;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -98vw !important;
+    }
+
+    .carousel-caption-hui-logo {
+        margin-top: -5vw !important;
+    }
+
+    .footer-nav {
+        margin-top: 120vw;
+    }
+
+    .footer-mark img {
+        margin-top: -55vw;
+    }
+
+    .title-section {
+        height: 40%;
+    }
+
+    .title-img {
+        margin-top: 40%;
+    }
+
+    .title-text h3 {
+        font-size: 95%;
+    }
+
+    .title-text h1 {
+        font-size: 100% !important;
+    }
+
+    .video-text-top {
+        margin-left: -18%;
+    }
+
+    .arrow-img {
+        padding-right: 53%;
+        margin-top: -2%;
+    }
+
+    .video-fern-img {
+        margin-left: 47%;
+    }
+
+    .code-img {
+        margin-right: 6%;
+    }
+
+    .video-section {
+        height: auto;
+    }
+
+    .video-text-bottom {
+        margin-left: 12%;
+        margin-top: 50%;
+    }
+
+    .video-section video {
+        margin-top: -127%;
+    }
+
+    .card-body p {
+        margin-top: -67%;
+        margin-right: 25%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 70%;
+        padding-bottom: 5%;
+    }
+
+    .carousel-caption p {
+        margin-left: 36%;
+        margin-top: -10%;
+    }
+
+    .hui-des-text {
+        padding-left: 10% !important;
+    }
+
+    .hui-des-logo {
+        margin-left: 5%;
+    }
+
+    .hui-des-img {
+        height: 72vw;
+    }
+
+    .contact-text {
+        margin-left: 8%;
+    }
+
+    .social-text {
+        padding-top: 0%;
+        margin-left: -5vw;
+    }
+
+    .social-img {
+        margin-top: -50vw;
+        margin-right: -15vw;
+    }
+
+    .carousel-inner img {
+        margin-top: 23%;
+    }
+
+    form {
+        margin-top: -10%;
+    }
+
+    .footer-nav {
+        padding-left: 10vw;
+    }
+
+    .copytright {
+        padding-left: 20vw;
+        font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 411px) {
+    .nav-logo:after {
+        top: 68%;
+    }
+
+    .title-section {
+        height: 36%;
+    }
+
+    .title-img {
+        margin-top: 40%;
+    }
+
+    .video-text-top {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-item-about {
+        margin-top: -9vw;
+    }
+
+    .navbar-item-brand {
+        margin-top: -9vw;
+    }
+
+    .navbar-item-contact {
+        margin-top: -9vw;
+    }
+
+    .carousel-caption h3 {
+        font-size: 3vw;
+        padding-bottom: 2.5vw;
+    }
+
+    .carousel-caption p {
+        margin-left: 24vw;
+        margin-top: -7vw;
+    }
+
+    .brand-des-text {
+        margin-top: -40vw;
+    }
+
+    .brand-des {
+        height: 190vw;
+    }
+
+    .hui-des-text p {
+        font-size: 3.6vw;
+    }
+
+    .hui-des {
+        height: 160vw;
+    }
+
+    .honey-des h1 {
+        padding-top: 10vw;
+    }
+
+    .honey-des-mark {
+        margin-top: 22vw;
+    }
+
+    .honey-des {
+        height: 195vw;
+    }
+
+    .more-des {
+        height: 45vw;
+    }
+
+    .social-img {
+        margin-right: -35vw;
+    }
+
+    .quality-des {
+        height: 120vw;
+    }
+
+    .quality-des-text {
+        margin-left: -5vw;
+    }
+
+    .carousel-caption a h1 {
+        margin-top: 7vw;
+    }
+
+    form {
+        margin-top: -5vw;
+    }
+
+    .footer-nav {
+        margin-top: 130vw;
+    }
+
+    .title-text h3 {
+        font-size: 88%;
+    }
+
+    .title-text h1 {
+        font-size: 90% !important;
+    }
+
+    .title-section {
+        height: 33%;
+    }
+
+    .title-img {
+        margin-top: 30%;
+    }
+
+    .arrow-img {
+        padding-right: 60%;
+    }
+
+    .video-fern-img {
+        margin-left: 43%;
+    }
+
+    .video-section {
+        height: auto;
+    }
+
+    .video-text-top {
+        margin-left: -18%;
+        margin-top: 20%;
+    }
+
+    .video-section video {
+        margin-top: -135%;
+    }
+
+    .card-body p {
+        margin-top: -82%;
+        margin-right: 15%;
+    }
+
+    .card-body p {
+        margin-top: -82%;
+    }
+
+    .carousel-caption-text h1 {
+        margin-top: 22%;
+    }
+
+    .social-text {
+        margin-top: -5%;
+    }
+
+    .footer-nav li {
+        padding-right: 20px;
+    }
+
+    .copytright {
+        padding-left: 18%;
+    }
+}
+
+@media (max-width: 360px) {
+    .carousel-caption {
+        top: 62vw;
+    }
+
+    .social-text {
+        margin-left: 2vw;
+    }
+
+    .card-body p {
+        margin-top: -90%;
+    }
+
+    .title-text h3 {
+        font-size: 84%;
+    }
+
+    .title-text h1 {
+        font-size: 85% !important;
+    }
+
+    .welcome p {
+        font-size: 70%;
+    }
+
+    .title-img {
+        margin-top: 20%;
+    }
+
+    .video-text-top {
+        margin-left: -14%;
+    }
+
+    .video-section {
+        height: auto;
+    }
+
+    .quality-des {
+        height: 125vw;
+    }
+
+    .contact-text {
+        margin-left: 0%;
+    }
+
+    .carousel-inner img {
+        margin-top: 15vw;
+    }
+
+    .carousel-caption-text h4 {
+        font-size: 75% !important;
+    }
+
+    .carousel-caption-tmall-logo {
+        margin-top: -95vw !important;
+    }
+
+    .social-img {
+        margin-top: -56vw;
+        margin-right: -10vw;
+    }
+}
+
+@media (max-width: 330px) {
+    .social-text {
+        margin-left: 0vw;
+    }
+}
+
+@media (max-width: 320px) {
+    #navbarResponsive ul {
+        margin-left: -3.8vw;
+    }
+
+    .carousel-caption {
+        top: 73vw;
+    }
+
+    .title-text h3 {
+        font-size: 72%;
+    }
+
+    .title-text h1 {
+        font-size: 76% !important;
+    }
+
+    .title-img {
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+
+    .welcome p {
+        font-size: 60%;
+    }
+
+    .title-text h1 {
+        font-size: 75% !important;
+    }
+
+    .title-img {
+        margin-top: 25%;
+    }
+
+    .video-text-top {
+        margin-left: -8%;
+    }
+
+    .arrow-img {
+        padding-right: 70%;
+    }
+
+    .video-fern-img {
+        margin-left: 30%;
+    }
+
+    .code-img {
+        margin-right: 14%;
+        margin-top: 7%;
+    }
+
+    .video-section video {
+        margin-top: -155%;
+    }
+
+    .video-section {
+        height: auto;
+    }
+
+    .video-text-bottom p {
+        font-size: 62%;
+    }
+
+    .brand-card {
+        padding-bottom: 3rem;
+    }
+
+    .card-title {
+        margin-left: 10%;
+    }
+
+    .card-body p {
+        margin-top: -114%;
+    }
+
+    .carousel-inner img {
+        margin-top: 27%;
+    }
+
+    .social-text h3 {
+        font-size: 115%;
+    }
+
+    .social-text p {
+        margin-top: -3%;
+    }
+
+    .quality-des-text h1 {
+        font-size: 110%;
+    }
+
+    .carousel-caption-text h4 {
+        font-size: 65% !important;
+    }
+
+    .social-text {
+        margin-top: 8%;
+    }
+
+    .social-text p {
+        font-size: 80%;
+    }
+
+    .footer-nav {
+        font-size: 60%;
+        margin-top: 140vw;
+    }
+
+    .copytright {
+        padding-left: 20vw;
+    }
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+/*--- Fixed Background Image --*/
+figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0 !important;
+}
+
+.fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#fixed {
+    background-image: url("../imgs/tmall-bg1.jpg");
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  */
